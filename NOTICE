@@ -1,0 +1,20 @@
+OTel Benchmark App
+Copyright 2026 PedroMosquera (https://github.com/PedroMosquera)
+
+This product includes software developed as part of the EasyTrade project
+(https://github.com/Dynatrace/easytrade), Copyright Dynatrace LLC, licensed
+under the Apache License, Version 2.0. A copy of the license is in ./LICENSE.
+
+Modifications made in this derivative work:
+
+  - Renamed the application to "OTel Benchmark App" in documentation, the Helm
+    chart (helm/easytrade -> helm/otel-benchmark-app), the Compose project name,
+    and the frontend page title.
+  - Removed the upstream GitHub Actions workflows, composite actions, and
+    CODEOWNERS file, which targeted registries and clusters not reachable from
+    this repository.
+  - Rewrote the README to describe the benchmarking use case.
+
+Unmodified from upstream: all service source code, Java package names
+(com.dynatrace.easytrade), C# namespaces, Compose service names, the container
+image registry in .env, and the Dynatrace Monaco configuration under monaco/.
